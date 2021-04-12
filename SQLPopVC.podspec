@@ -103,7 +103,11 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "SQLPopVC/**/*.png","SQLPopVC/**/*.xib"
+  # spec.resources = "SQLPopVC/**/*.png","SQLPopVC/**/*.xib"
+  spec.resource_bundles = {
+    "SQLPopVCImg" => ["SQLPopVC/**/*.png"],
+    "SQLPopVCXib" => ["SQLPopVC/**/*.xib"]
+  }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave" 
 
