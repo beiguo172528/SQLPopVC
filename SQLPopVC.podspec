@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   spec.resources = "SQLPopVC/**/*.png","SQLPopVC/**/*.xib"
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave" 
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
