@@ -16,59 +16,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="m8M-hJ-wM0">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="3Ip-Y9-LyL">
                                 <rect key="frame" x="20" y="323.5" width="374" height="249"/>
                                 <subviews>
-                                    <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYr-uu-Mem">
+                                    <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfv-Rv-0GZ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="Ydt-tF-JcN"/>
+                                            <constraint firstAttribute="height" constant="45" id="euy-OI-zfh"/>
                                         </constraints>
                                         <state key="normal" title="默认">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sgz-K6-MHj"/>
+                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="syd-Ek-PRX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tED-dI-0uj">
+                                    <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5at-ag-eP8">
                                         <rect key="frame" x="0.0" y="68" width="374" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="tX8-YI-8bO"/>
+                                            <constraint firstAttribute="height" constant="45" id="CUP-Rv-pFQ"/>
                                         </constraints>
                                         <state key="normal" title="输入框">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JkL-9S-WxM"/>
+                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LtO-I5-7yr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMF-dA-XQN">
+                                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHB-g6-7WY">
                                         <rect key="frame" x="0.0" y="136" width="374" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="37l-18-nkl"/>
+                                            <constraint firstAttribute="height" constant="45" id="IpF-ha-9gw"/>
                                         </constraints>
                                         <state key="normal" title="多按钮">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SsD-y7-vuy"/>
+                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WzW-uC-loO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMb-vD-KbQ">
+                                    <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhP-iI-stS">
                                         <rect key="frame" x="0.0" y="204" width="374" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="Lln-gM-Ikh"/>
+                                            <constraint firstAttribute="height" constant="45" id="chD-2Q-zSo"/>
                                         </constraints>
                                         <state key="normal" title="自定义view">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ct-iC-xyX"/>
+                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHC-4g-hpY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -77,9 +77,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="m8M-hJ-wM0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="in3-Tg-HUe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m8M-hJ-wM0" secondAttribute="trailing" constant="20" id="lul-Lk-VRq"/>
-                            <constraint firstItem="m8M-hJ-wM0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vmB-lB-e3h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Ip-Y9-LyL" secondAttribute="trailing" constant="20" id="YgU-mJ-anf"/>
+                            <constraint firstItem="3Ip-Y9-LyL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="obb-m6-BTx"/>
+                            <constraint firstItem="3Ip-Y9-LyL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rwV-fB-R9J"/>
                         </constraints>
                     </view>
                 </viewController>

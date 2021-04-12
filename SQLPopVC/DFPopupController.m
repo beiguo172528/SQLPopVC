@@ -11,7 +11,7 @@
 #import "UIColor+DFToolColor.h"
 #import "DFPopupPresentAnimator.h"
 #import "DFPopupDismissAnimator.h"
-
+#import "NSBundle+DFBundle.h"
 
 @interface DFPopupController ()<UIViewControllerTransitioningDelegate,DFPopViewButtonDelegate>{
     NSString*   _title;
@@ -221,7 +221,7 @@
 
 -(void)loadAreaXib{
 //    _areaView = (DFPopupViewArea *)[UINib nibWithNibName:@"DFPopupViewArea" bundle:[NSBundle bundleForClass:[self class]]];
-    _areaView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"DFPopupViewArea" owner:self options:nil] lastObject];
+    _areaView = [[[NSBundle bundleWithBundleName:@"SQLPopVC" podName:@"SQLPopVC"] loadNibNamed:@"DFPopupViewArea" owner:self options:nil] lastObject];
 //    NSString *path = [build pathForResource:@"SQL" ofType:@"bundle"];
 //    _areaView = [[[NSBundle bundleWithPath:path] loadNibNamed:@"DFPopupViewArea" owner:self options:nil] lastObject];
 //    _areaView = [NSBundle bundleWithBundleName:@"DFPopupViewArea" podName:@"DFPopupViewArea" Extension:@"xib"];

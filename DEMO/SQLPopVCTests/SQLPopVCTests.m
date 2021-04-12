@@ -1,17 +1,17 @@
 //
-//  SQLPopViewController1Tests.m
-//  SQLPopViewController1Tests
+//  SQLPopVCTests.m
+//  SQLPopVCTests
 //
 //  Created by DOFAR on 2021/4/12.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface SQLPopViewController1Tests : XCTestCase
+@interface SQLPopVCTests : XCTestCase
 
 @end
 
-@implementation SQLPopViewController1Tests
+@implementation SQLPopVCTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

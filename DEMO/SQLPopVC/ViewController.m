@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  SQLPopViewController1
+//  SQLPopVC
 //
 //  Created by DOFAR on 2021/4/12.
 //
@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
 
 - (IBAction)onclickBtn:(UIButton *)sender {
     DFPopupController * vc = [DFPopupController popupViewWithTitle:@"Title" imgName:@"" message:@"Message"];
@@ -71,6 +70,8 @@
     }
     
 }
+
+
 
 
 @end
