@@ -220,7 +220,12 @@
 }
 
 -(void)loadAreaXib{
-    _areaView = [[[NSBundle mainBundle]loadNibNamed:@"DFPopupViewArea" owner:self options:nil] firstObject];
+//    _areaView = (DFPopupViewArea *)[UINib nibWithNibName:@"DFPopupViewArea" bundle:[NSBundle bundleForClass:[self class]]];
+    _areaView = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"DFPopupViewArea" owner:self options:nil] lastObject];
+//    NSString *path = [build pathForResource:@"SQL" ofType:@"bundle"];
+//    _areaView = [[[NSBundle bundleWithPath:path] loadNibNamed:@"DFPopupViewArea" owner:self options:nil] lastObject];
+//    _areaView = [NSBundle bundleWithBundleName:@"DFPopupViewArea" podName:@"DFPopupViewArea" Extension:@"xib"];
+//    _areaView = [[[NSBundle mainBundle]loadNibNamed:@"DFPopupViewArea" owner:self options:nil] firstObject];
 }
 
 - (void)didReceiveMemoryWarning {
