@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SQLPopVC"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "自己搭建，没有使用第三方库，实现确认框。"
 
   # This description is used to generate tags and improve search results.
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "SQLPopVC/**/*.png","SQLPopVC/**/*.xib"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
