@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -158,7 +158,6 @@
 				1524BD3A3AE89A253B4FD686 /* Pods-SQLPopVCTests.debug.xcconfig */,
 				8E413E9EA2BF75A18874A4E8 /* Pods-SQLPopVCTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,20 +223,20 @@
 		C764EA0B26244E2700E30E46 /* SQLPopVC */ = {
 			isa = PBXGroup;
 			children = (
+				C764EA2626244E2700E30E46 /* DFPopupAnimator */,
+				C764EA1226244E2700E30E46 /* DFPopupController.h */,
 				C764EA0C26244E2700E30E46 /* DFPopupController.m */,
+				C764EA2226244E2700E30E46 /* DFPopupHeader.h */,
+				C764EA1026244E2700E30E46 /* DFPopupViewArea.h */,
+				C764EA2426244E2700E30E46 /* DFPopupViewArea.m */,
+				C764EA1126244E2700E30E46 /* DFPopupViewArea.xib */,
+				C764EA1326244E2700E30E46 /* DFPopupViewCTool */,
+				C764EA2326244E2700E30E46 /* DFPopViewButton.h */,
 				C764EA0D26244E2700E30E46 /* DFPopViewButton.m */,
 				C764EA0E26244E2700E30E46 /* DFPopViewTextField.h */,
-				C764EA0F26244E2700E30E46 /* NSBundle+DFBundle.m */,
-				C764EA1026244E2700E30E46 /* DFPopupViewArea.h */,
-				C764EA1126244E2700E30E46 /* DFPopupViewArea.xib */,
-				C764EA1226244E2700E30E46 /* DFPopupController.h */,
-				C764EA1326244E2700E30E46 /* DFPopupViewCTool */,
 				C764EA2126244E2700E30E46 /* DFPopViewTextField.m */,
-				C764EA2226244E2700E30E46 /* DFPopupHeader.h */,
-				C764EA2326244E2700E30E46 /* DFPopViewButton.h */,
-				C764EA2426244E2700E30E46 /* DFPopupViewArea.m */,
 				C764EA2526244E2700E30E46 /* NSBundle+DFBundle.h */,
-				C764EA2626244E2700E30E46 /* DFPopupAnimator */,
+				C764EA0F26244E2700E30E46 /* NSBundle+DFBundle.m */,
 			);
 			name = SQLPopVC;
 			path = ../../SQLPopVC;
