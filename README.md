@@ -1,4 +1,4 @@
-![image](https://github.com/beiguo172528/SQLPopVC/blob/main/images/GIF.gif)
+![image](https://github.com/beiguo172528/SQLPopVC/blob/main/images/SQLPopVCGif.gif)
 
 使用方法：
 1.pod 'SQLPopVC'
