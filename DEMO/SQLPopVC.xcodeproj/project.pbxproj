@@ -19,22 +19,6 @@
 		C764E9E326244DBA00E30E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C764E9E226244DBA00E30E46 /* main.m */; };
 		C764E9ED26244DBA00E30E46 /* SQLPopVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C764E9EC26244DBA00E30E46 /* SQLPopVCTests.m */; };
 		C764E9F826244DBA00E30E46 /* SQLPopVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C764E9F726244DBA00E30E46 /* SQLPopVCUITests.m */; };
-		C764EA2B26244E2700E30E46 /* DFPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA0C26244E2700E30E46 /* DFPopupController.m */; };
-		C764EA2C26244E2700E30E46 /* DFPopViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA0D26244E2700E30E46 /* DFPopViewButton.m */; };
-		C764EA2D26244E2700E30E46 /* NSBundle+DFBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA0F26244E2700E30E46 /* NSBundle+DFBundle.m */; };
-		C764EA2E26244E2700E30E46 /* DFPopupViewArea.xib in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1126244E2700E30E46 /* DFPopupViewArea.xib */; };
-		C764EA2F26244E2700E30E46 /* UIColor+DFToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA1626244E2700E30E46 /* UIColor+DFToolColor.m */; };
-		C764EA3026244E2700E30E46 /* DFPopupViewErrorImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1826244E2700E30E46 /* DFPopupViewErrorImg@2x.png */; };
-		C764EA3126244E2700E30E46 /* DFPopupViewSureImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1926244E2700E30E46 /* DFPopupViewSureImg@3x.png */; };
-		C764EA3226244E2700E30E46 /* DFPopupViewSureImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1A26244E2700E30E46 /* DFPopupViewSureImg@2x.png */; };
-		C764EA3326244E2700E30E46 /* DFPopupViewErrorImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1B26244E2700E30E46 /* DFPopupViewErrorImg@3x.png */; };
-		C764EA3426244E2700E30E46 /* DFPopupViewDangerImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1C26244E2700E30E46 /* DFPopupViewDangerImg@3x.png */; };
-		C764EA3526244E2700E30E46 /* DFPopupViewDangerImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C764EA1D26244E2700E30E46 /* DFPopupViewDangerImg@2x.png */; };
-		C764EA3626244E2700E30E46 /* NSString+DFPopupString.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA1F26244E2700E30E46 /* NSString+DFPopupString.m */; };
-		C764EA3726244E2700E30E46 /* DFPopViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA2126244E2700E30E46 /* DFPopViewTextField.m */; };
-		C764EA3826244E2700E30E46 /* DFPopupViewArea.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA2426244E2700E30E46 /* DFPopupViewArea.m */; };
-		C764EA3926244E2700E30E46 /* DFPopupPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA2726244E2700E30E46 /* DFPopupPresentAnimator.m */; };
-		C764EA3A26244E2700E30E46 /* DFPopupDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C764EA2826244E2700E30E46 /* DFPopupDismissAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,32 +64,6 @@
 		C764E9F326244DBA00E30E46 /* SQLPopVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLPopVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C764E9F726244DBA00E30E46 /* SQLPopVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLPopVCUITests.m; sourceTree = "<group>"; };
 		C764E9F926244DBA00E30E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C764EA0C26244E2700E30E46 /* DFPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPopupController.m; sourceTree = "<group>"; };
-		C764EA0D26244E2700E30E46 /* DFPopViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPopViewButton.m; sourceTree = "<group>"; };
-		C764EA0E26244E2700E30E46 /* DFPopViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopViewTextField.h; sourceTree = "<group>"; };
-		C764EA0F26244E2700E30E46 /* NSBundle+DFBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DFBundle.m"; sourceTree = "<group>"; };
-		C764EA1026244E2700E30E46 /* DFPopupViewArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopupViewArea.h; sourceTree = "<group>"; };
-		C764EA1126244E2700E30E46 /* DFPopupViewArea.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFPopupViewArea.xib; sourceTree = "<group>"; };
-		C764EA1226244E2700E30E46 /* DFPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopupController.h; sourceTree = "<group>"; };
-		C764EA1526244E2700E30E46 /* UIColor+DFToolColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DFToolColor.h"; sourceTree = "<group>"; };
-		C764EA1626244E2700E30E46 /* UIColor+DFToolColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DFToolColor.m"; sourceTree = "<group>"; };
-		C764EA1826244E2700E30E46 /* DFPopupViewErrorImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DFPopupViewErrorImg@2x.png"; sourceTree = "<group>"; };
-		C764EA1926244E2700E30E46 /* DFPopupViewSureImg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DFPopupViewSureImg@3x.png"; sourceTree = "<group>"; };
-		C764EA1A26244E2700E30E46 /* DFPopupViewSureImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DFPopupViewSureImg@2x.png"; sourceTree = "<group>"; };
-		C764EA1B26244E2700E30E46 /* DFPopupViewErrorImg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DFPopupViewErrorImg@3x.png"; sourceTree = "<group>"; };
-		C764EA1C26244E2700E30E46 /* DFPopupViewDangerImg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DFPopupViewDangerImg@3x.png"; sourceTree = "<group>"; };
-		C764EA1D26244E2700E30E46 /* DFPopupViewDangerImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DFPopupViewDangerImg@2x.png"; sourceTree = "<group>"; };
-		C764EA1F26244E2700E30E46 /* NSString+DFPopupString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DFPopupString.m"; sourceTree = "<group>"; };
-		C764EA2026244E2700E30E46 /* NSString+DFPopupString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DFPopupString.h"; sourceTree = "<group>"; };
-		C764EA2126244E2700E30E46 /* DFPopViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPopViewTextField.m; sourceTree = "<group>"; };
-		C764EA2226244E2700E30E46 /* DFPopupHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopupHeader.h; sourceTree = "<group>"; };
-		C764EA2326244E2700E30E46 /* DFPopViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopViewButton.h; sourceTree = "<group>"; };
-		C764EA2426244E2700E30E46 /* DFPopupViewArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPopupViewArea.m; sourceTree = "<group>"; };
-		C764EA2526244E2700E30E46 /* NSBundle+DFBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DFBundle.h"; sourceTree = "<group>"; };
-		C764EA2726244E2700E30E46 /* DFPopupPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPopupPresentAnimator.m; sourceTree = "<group>"; };
-		C764EA2826244E2700E30E46 /* DFPopupDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPopupDismissAnimator.m; sourceTree = "<group>"; };
-		C764EA2926244E2700E30E46 /* DFPopupPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopupPresentAnimator.h; sourceTree = "<group>"; };
-		C764EA2A26244E2700E30E46 /* DFPopupDismissAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPopupDismissAnimator.h; sourceTree = "<group>"; };
 		CFFA5E592DB4FBAF36256C52 /* Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig"; path = "Target Support Files/Pods-SQLPopVC-SQLPopVCUITests/Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB8043DFDA013ACD8287CC16 /* Pods_SQLPopVC_SQLPopVCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLPopVC_SQLPopVCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -186,7 +144,6 @@
 		C764E9CF26244DB900E30E46 /* SQLPopVC */ = {
 			isa = PBXGroup;
 			children = (
-				C764EA0B26244E2700E30E46 /* SQLPopVC */,
 				C764E9D026244DB900E30E46 /* AppDelegate.h */,
 				C764E9D126244DB900E30E46 /* AppDelegate.m */,
 				C764E9D326244DB900E30E46 /* SceneDelegate.h */,
@@ -218,80 +175,6 @@
 				C764E9F926244DBA00E30E46 /* Info.plist */,
 			);
 			path = SQLPopVCUITests;
-			sourceTree = "<group>";
-		};
-		C764EA0B26244E2700E30E46 /* SQLPopVC */ = {
-			isa = PBXGroup;
-			children = (
-				C764EA2626244E2700E30E46 /* DFPopupAnimator */,
-				C764EA1226244E2700E30E46 /* DFPopupController.h */,
-				C764EA0C26244E2700E30E46 /* DFPopupController.m */,
-				C764EA2226244E2700E30E46 /* DFPopupHeader.h */,
-				C764EA1026244E2700E30E46 /* DFPopupViewArea.h */,
-				C764EA2426244E2700E30E46 /* DFPopupViewArea.m */,
-				C764EA1126244E2700E30E46 /* DFPopupViewArea.xib */,
-				C764EA1326244E2700E30E46 /* DFPopupViewCTool */,
-				C764EA2326244E2700E30E46 /* DFPopViewButton.h */,
-				C764EA0D26244E2700E30E46 /* DFPopViewButton.m */,
-				C764EA0E26244E2700E30E46 /* DFPopViewTextField.h */,
-				C764EA2126244E2700E30E46 /* DFPopViewTextField.m */,
-				C764EA2526244E2700E30E46 /* NSBundle+DFBundle.h */,
-				C764EA0F26244E2700E30E46 /* NSBundle+DFBundle.m */,
-			);
-			name = SQLPopVC;
-			path = ../../SQLPopVC;
-			sourceTree = "<group>";
-		};
-		C764EA1326244E2700E30E46 /* DFPopupViewCTool */ = {
-			isa = PBXGroup;
-			children = (
-				C764EA1426244E2700E30E46 /* Color */,
-				C764EA1726244E2700E30E46 /* img */,
-				C764EA1E26244E2700E30E46 /* String */,
-			);
-			path = DFPopupViewCTool;
-			sourceTree = "<group>";
-		};
-		C764EA1426244E2700E30E46 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				C764EA1526244E2700E30E46 /* UIColor+DFToolColor.h */,
-				C764EA1626244E2700E30E46 /* UIColor+DFToolColor.m */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
-		C764EA1726244E2700E30E46 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				C764EA1826244E2700E30E46 /* DFPopupViewErrorImg@2x.png */,
-				C764EA1926244E2700E30E46 /* DFPopupViewSureImg@3x.png */,
-				C764EA1A26244E2700E30E46 /* DFPopupViewSureImg@2x.png */,
-				C764EA1B26244E2700E30E46 /* DFPopupViewErrorImg@3x.png */,
-				C764EA1C26244E2700E30E46 /* DFPopupViewDangerImg@3x.png */,
-				C764EA1D26244E2700E30E46 /* DFPopupViewDangerImg@2x.png */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		C764EA1E26244E2700E30E46 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				C764EA1F26244E2700E30E46 /* NSString+DFPopupString.m */,
-				C764EA2026244E2700E30E46 /* NSString+DFPopupString.h */,
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
-		C764EA2626244E2700E30E46 /* DFPopupAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				C764EA2726244E2700E30E46 /* DFPopupPresentAnimator.m */,
-				C764EA2826244E2700E30E46 /* DFPopupDismissAnimator.m */,
-				C764EA2926244E2700E30E46 /* DFPopupPresentAnimator.h */,
-				C764EA2A26244E2700E30E46 /* DFPopupDismissAnimator.h */,
-			);
-			path = DFPopupAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,16 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C764EA3326244E2700E30E46 /* DFPopupViewErrorImg@3x.png in Resources */,
-				C764EA3126244E2700E30E46 /* DFPopupViewSureImg@3x.png in Resources */,
-				C764EA3026244E2700E30E46 /* DFPopupViewErrorImg@2x.png in Resources */,
-				C764EA3226244E2700E30E46 /* DFPopupViewSureImg@2x.png in Resources */,
-				C764EA3426244E2700E30E46 /* DFPopupViewDangerImg@3x.png in Resources */,
 				C764E9E026244DBA00E30E46 /* LaunchScreen.storyboard in Resources */,
 				C764E9DD26244DBA00E30E46 /* Assets.xcassets in Resources */,
-				C764EA2E26244E2700E30E46 /* DFPopupViewArea.xib in Resources */,
 				C764E9DB26244DB900E30E46 /* Main.storyboard in Resources */,
-				C764EA3526244E2700E30E46 /* DFPopupViewDangerImg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,19 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C764EA2C26244E2700E30E46 /* DFPopViewButton.m in Sources */,
 				C764E9D826244DB900E30E46 /* ViewController.m in Sources */,
-				C764EA2B26244E2700E30E46 /* DFPopupController.m in Sources */,
-				C764EA3826244E2700E30E46 /* DFPopupViewArea.m in Sources */,
 				C764E9D226244DB900E30E46 /* AppDelegate.m in Sources */,
-				C764EA3626244E2700E30E46 /* NSString+DFPopupString.m in Sources */,
 				C764E9E326244DBA00E30E46 /* main.m in Sources */,
 				C764E9D526244DB900E30E46 /* SceneDelegate.m in Sources */,
-				C764EA2D26244E2700E30E46 /* NSBundle+DFBundle.m in Sources */,
-				C764EA3A26244E2700E30E46 /* DFPopupDismissAnimator.m in Sources */,
-				C764EA3926244E2700E30E46 /* DFPopupPresentAnimator.m in Sources */,
-				C764EA3726244E2700E30E46 /* DFPopViewTextField.m in Sources */,
-				C764EA2F26244E2700E30E46 /* UIColor+DFToolColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
