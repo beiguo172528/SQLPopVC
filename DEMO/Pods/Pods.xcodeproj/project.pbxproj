@@ -1,0 +1,1176 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FAB534F65C3A780817E992DD44AECE /* DFPopupViewArea.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF7B9BC51CC9FD33C977EA0688BA9F6 /* DFPopupViewArea.m */; };
+		18871510EA38D0855E61FCAC93651A72 /* UIColor+DFToolColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4752940829F423D1014BFEC08DBC3550 /* UIColor+DFToolColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25ECF95D6B813149F65BD79856257C35 /* DFPopupViewSureImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E2B19C4CE889038ABC92758FEF81BB /* DFPopupViewSureImg@3x.png */; };
+		2F66D64F6DFF53EFB5C961D949FFEB7E /* Pods-SQLPopVCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF566133446E15A0082C76DE9FDA1F6 /* Pods-SQLPopVCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37ADCAE2D711DF31DA6FA0414D2FDEDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		382ED5494608173E3E934D2F5FF56DD9 /* DFPopupViewErrorImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB2F615C7C97B8369B355EB7B1C0C2 /* DFPopupViewErrorImg@3x.png */; };
+		3EB0B6F450E266A86173D514440D1023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3F07B5A4E151940C0515947E1321D6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		448D43D5EEEE7489A364A0D8A394B343 /* DFPopupViewErrorImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6BDB0A71C09FEC918A6A255B5E73AE1 /* DFPopupViewErrorImg@2x.png */; };
+		47B27931D54AC1EBDF78DB7D7F31DA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A485B245C2029CFD938A98992020296 /* DFPopupPresentAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 86528F830BB6CDD27CECA79FCDDE98EE /* DFPopupPresentAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B8E3B6ABD2B0C19B11FAEF2445799C5 /* DFPopupPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 149887879E4EF9808892AB982D54B6F9 /* DFPopupPresentAnimator.m */; };
+		519391FE95EB841A121D23B567A601C7 /* NSBundle+DFBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F2803E60C2769CA17679EF5A30935E /* NSBundle+DFBundle.m */; };
+		68A8CF8FD8F90B8F79EFC2FDC0D2C443 /* SQLPopVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F312B3BC974E01530CEF4311C16A04FA /* SQLPopVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F39FAE1E78B2F6711257FBB62BE2D6 /* DFPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A12A12A43B2900F3384CA35B9C9325 /* DFPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A7A90BA4D7ED70E2D25F55D267ABAA /* Pods-SQLPopVC-SQLPopVCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E7119E0B0E33584DB4BE08B72EFA5 /* Pods-SQLPopVC-SQLPopVCUITests-dummy.m */; };
+		793B6657BCCD00FDF2AF85C3C4295179 /* DFPopViewTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EF910BD3161917DC6F7E5BF43811F1 /* DFPopViewTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A07B8827CBEDA1B924D22685AB6F1CA /* NSBundle+DFBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A94202EFC2956325402FD0557E4349 /* NSBundle+DFBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955AE2D1BD6E6BB859B4A334690521A1 /* DFPopupViewArea.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF124D63049F72572061815A5CAC0C2 /* DFPopupViewArea.xib */; };
+		99E47EAEA434263663641FFD3971A5A6 /* DFPopupDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 996F2D89854FE17C0F42EF3CCCA10F8F /* DFPopupDismissAnimator.m */; };
+		9CCE1CCAFD4626998EE4BCAA1B1414B2 /* DFPopupViewDangerImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF1E72CD05278CA4AB1DD466B34B487 /* DFPopupViewDangerImg@3x.png */; };
+		9D25BD7D25C887EE2A36D66ECF741BD9 /* DFPopupViewDangerImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C96646CCC3713771F57338A92330E5B /* DFPopupViewDangerImg@2x.png */; };
+		9D267D313FEAFA989642DEEAD385D844 /* UIColor+DFToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E5554C8B8D3EB26CAB1F8E3741732 /* UIColor+DFToolColor.m */; };
+		A4152DEF58EFD6661A5F5E361BF8E1DF /* DFPopupDismissAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = F9789C1B365AD466CE27AAB02F81305E /* DFPopupDismissAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46F5D2F38F9B1ECF48061CBAECD374A /* DFPopViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 578991A3DC662718346909A7B9F1C534 /* DFPopViewTextField.m */; };
+		AC34F942230B7CD43A4B852C9A652E69 /* Pods-SQLPopVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53764564C2907E831707F47F274357E6 /* Pods-SQLPopVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC71163DA0A35C52E823955A37AB7AEB /* Pods-SQLPopVC-SQLPopVCUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 654036BC336D47C33B8BF83FA8D2AD6B /* Pods-SQLPopVC-SQLPopVCUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3BB2098B5DBE8BD3E39BA397BD2835 /* DFPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D390982D8F959120CBC8FBA3EA80A70 /* DFPopupController.m */; };
+		AF0AA32A2CF6E36B0114D36F94CCE3C9 /* NSString+DFPopupString.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7F0C9A1A14E9B1E8265AAD49F1DD4F /* NSString+DFPopupString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4CD00B0974A99132A0933512DEDECD5 /* SQLPopVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A80D8B7B201CC197ADE1F1B157158938 /* SQLPopVC.bundle */; };
+		BD3AC45049AEFE62AEFE68C3EFB7D685 /* Pods-SQLPopVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D84C3E5C9AF8A2F4B99EBA9A1AB94C /* Pods-SQLPopVC-dummy.m */; };
+		BE7BCB250343BFE38B9BB1731BD7B948 /* Pods-SQLPopVCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEAC8ACAC9AF4855EB60EC8A17FF89 /* Pods-SQLPopVCTests-dummy.m */; };
+		C1700A367C3EEA404C67A7D2B8491AB7 /* DFPopupViewSureImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 866FC8B13CD4A721C1140A52C4670A0A /* DFPopupViewSureImg@2x.png */; };
+		C1BB84DBB11878E0A2696E220461D6CE /* DFPopViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466A8CA2E48C57723556E1910ECAAD7 /* DFPopViewButton.m */; };
+		CC71227FFB8B5B6422CD9B80EE2CB749 /* SQLPopVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29722707C8BDE30B220ADCD3837B13A3 /* SQLPopVC-dummy.m */; };
+		D0E26E518DCFBC3B298E2948572CF6D4 /* DFPopupViewArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD1B8214F58E14D8E2C688E7B371F12 /* DFPopupViewArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EA64F44B89190A8D53C2499ED5DB7E /* DFPopViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D36D72146006BF59FA5F2520BFBF47F /* DFPopViewButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1EDCCB5B25E9B3652E7D0065D38EA84 /* DFPopupHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E906040E68C5918E03D2FBFC223F00 /* DFPopupHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9B53AE41A5FD503C1128F79ADB3389 /* NSString+DFPopupString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F484AD310B796ED1F3B85E5CE76A83 /* NSString+DFPopupString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247489B337168A4A33DACFE0679FA9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494597B72AD0B8D0B47D9C09FCA8C077;
+			remoteInfo = SQLPopVC;
+		};
+		80518E1C5D8E298C35BA76E8FF33ECC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494597B72AD0B8D0B47D9C09FCA8C077;
+			remoteInfo = SQLPopVC;
+		};
+		A4B43C6B6FA0768865D382594D237EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ABFA1CEC432E300005728DCFEEE31DE;
+			remoteInfo = "Pods-SQLPopVC";
+		};
+		DC5813CCB2E648A981626F9F063D6471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB183F6667460584FF55E527F9F76930;
+			remoteInfo = "SQLPopVC-SQLPopVC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0466A8CA2E48C57723556E1910ECAAD7 /* DFPopViewButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFPopViewButton.m; path = SQLPopVC/DFPopViewButton.m; sourceTree = "<group>"; };
+		11354F34EF9CB91CE48F0422A5B329F6 /* Pods-SQLPopVCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQLPopVCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		149887879E4EF9808892AB982D54B6F9 /* DFPopupPresentAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFPopupPresentAnimator.m; path = SQLPopVC/DFPopupAnimator/DFPopupPresentAnimator.m; sourceTree = "<group>"; };
+		1AAB2F615C7C97B8369B355EB7B1C0C2 /* DFPopupViewErrorImg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DFPopupViewErrorImg@3x.png"; path = "SQLPopVC/DFPopupViewCTool/img/DFPopupViewErrorImg@3x.png"; sourceTree = "<group>"; };
+		1BBA1E1B62ACC5C9F719A3EB88902CA9 /* Pods-SQLPopVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLPopVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BF7D836549EE16C847FDC68B06F6011 /* SQLPopVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLPopVC.modulemap; sourceTree = "<group>"; };
+		1D36D72146006BF59FA5F2520BFBF47F /* DFPopViewButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopViewButton.h; path = SQLPopVC/DFPopViewButton.h; sourceTree = "<group>"; };
+		259613977BEABF34022FCBF47DF14276 /* SQLPopVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLPopVC.debug.xcconfig; sourceTree = "<group>"; };
+		29722707C8BDE30B220ADCD3837B13A3 /* SQLPopVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLPopVC-dummy.m"; sourceTree = "<group>"; };
+		2A011BB210DD8E09AB01717FD1536DD6 /* SQLPopVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLPopVC-prefix.pch"; sourceTree = "<group>"; };
+		2A745C8A74D7FFE808334A3A1D47AC2F /* Pods-SQLPopVC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLPopVC-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3593341FDB36E08CFEDB2E41A971C581 /* Pods-SQLPopVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQLPopVC-frameworks.sh"; sourceTree = "<group>"; };
+		3CDBE1994819CF123D10EEBC63FE275F /* Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CEEAC8ACAC9AF4855EB60EC8A17FF89 /* Pods-SQLPopVCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLPopVCTests-dummy.m"; sourceTree = "<group>"; };
+		3DD1B8214F58E14D8E2C688E7B371F12 /* DFPopupViewArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopupViewArea.h; path = SQLPopVC/DFPopupViewArea.h; sourceTree = "<group>"; };
+		40991436B5818B3A58C14A572F9A94F2 /* Pods-SQLPopVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQLPopVC.modulemap"; sourceTree = "<group>"; };
+		4316D8382D21E3980BDA8F9131C1ACE3 /* Pods-SQLPopVCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQLPopVCTests.modulemap"; sourceTree = "<group>"; };
+		4752940829F423D1014BFEC08DBC3550 /* UIColor+DFToolColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DFToolColor.h"; path = "SQLPopVC/DFPopupViewCTool/Color/UIColor+DFToolColor.h"; sourceTree = "<group>"; };
+		4AD0D349EA1C7082EF3CFE519EDDC287 /* Pods-SQLPopVC-SQLPopVCUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLPopVC-SQLPopVCUITests-Info.plist"; sourceTree = "<group>"; };
+		4C96646CCC3713771F57338A92330E5B /* DFPopupViewDangerImg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DFPopupViewDangerImg@2x.png"; path = "SQLPopVC/DFPopupViewCTool/img/DFPopupViewDangerImg@2x.png"; sourceTree = "<group>"; };
+		50A3E1FFC7336B54CF95D611FEC96495 /* Pods-SQLPopVCTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLPopVCTests-Info.plist"; sourceTree = "<group>"; };
+		53764564C2907E831707F47F274357E6 /* Pods-SQLPopVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLPopVC-umbrella.h"; sourceTree = "<group>"; };
+		578991A3DC662718346909A7B9F1C534 /* DFPopViewTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFPopViewTextField.m; path = SQLPopVC/DFPopViewTextField.m; sourceTree = "<group>"; };
+		5EF124D63049F72572061815A5CAC0C2 /* DFPopupViewArea.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DFPopupViewArea.xib; path = SQLPopVC/DFPopupViewArea.xib; sourceTree = "<group>"; };
+		654036BC336D47C33B8BF83FA8D2AD6B /* Pods-SQLPopVC-SQLPopVCUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLPopVC-SQLPopVCUITests-umbrella.h"; sourceTree = "<group>"; };
+		65A12A12A43B2900F3384CA35B9C9325 /* DFPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopupController.h; path = SQLPopVC/DFPopupController.h; sourceTree = "<group>"; };
+		65EF910BD3161917DC6F7E5BF43811F1 /* DFPopViewTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopViewTextField.h; path = SQLPopVC/DFPopViewTextField.h; sourceTree = "<group>"; };
+		6675AC3C7D010B20164AA44BFA57499E /* Pods-SQLPopVC-SQLPopVCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLPopVC-SQLPopVCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69E7D3E1AC6E43A6172404676AF9E50D /* SQLPopVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLPopVC.framework; path = SQLPopVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6E5554C8B8D3EB26CAB1F8E3741732 /* UIColor+DFToolColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DFToolColor.m"; path = "SQLPopVC/DFPopupViewCTool/Color/UIColor+DFToolColor.m"; sourceTree = "<group>"; };
+		72F14D576BD3B726F04F3966B4A7D4DA /* SQLPopVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLPopVC.release.xcconfig; sourceTree = "<group>"; };
+		786DB3FD1302392BC12E58A63492218D /* Pods-SQLPopVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLPopVC.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF65383102505201829A94FB4729D28 /* Pods-SQLPopVC-SQLPopVCUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQLPopVC-SQLPopVCUITests-frameworks.sh"; sourceTree = "<group>"; };
+		81A9885C23B8487F1D02381E9BC2CFCF /* Pods-SQLPopVC-SQLPopVCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQLPopVC-SQLPopVCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86528F830BB6CDD27CECA79FCDDE98EE /* DFPopupPresentAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopupPresentAnimator.h; path = SQLPopVC/DFPopupAnimator/DFPopupPresentAnimator.h; sourceTree = "<group>"; };
+		866FC8B13CD4A721C1140A52C4670A0A /* DFPopupViewSureImg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DFPopupViewSureImg@2x.png"; path = "SQLPopVC/DFPopupViewCTool/img/DFPopupViewSureImg@2x.png"; sourceTree = "<group>"; };
+		88A94202EFC2956325402FD0557E4349 /* NSBundle+DFBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+DFBundle.h"; path = "SQLPopVC/NSBundle+DFBundle.h"; sourceTree = "<group>"; };
+		8CF1E72CD05278CA4AB1DD466B34B487 /* DFPopupViewDangerImg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DFPopupViewDangerImg@3x.png"; path = "SQLPopVC/DFPopupViewCTool/img/DFPopupViewDangerImg@3x.png"; sourceTree = "<group>"; };
+		8D390982D8F959120CBC8FBA3EA80A70 /* DFPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFPopupController.m; path = SQLPopVC/DFPopupController.m; sourceTree = "<group>"; };
+		965C29BD71C6D454842D8C49CAA408E0 /* Pods-SQLPopVC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLPopVC-Info.plist"; sourceTree = "<group>"; };
+		96E906040E68C5918E03D2FBFC223F00 /* DFPopupHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopupHeader.h; path = SQLPopVC/DFPopupHeader.h; sourceTree = "<group>"; };
+		985E7119E0B0E33584DB4BE08B72EFA5 /* Pods-SQLPopVC-SQLPopVCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLPopVC-SQLPopVCUITests-dummy.m"; sourceTree = "<group>"; };
+		996F2D89854FE17C0F42EF3CCCA10F8F /* DFPopupDismissAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFPopupDismissAnimator.m; path = SQLPopVC/DFPopupAnimator/DFPopupDismissAnimator.m; sourceTree = "<group>"; };
+		9B8EA8A5C70EE4817CE0B16F1A073521 /* Pods-SQLPopVCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQLPopVCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9C425D2771B27745D24EF5056CB8D1 /* Pods-SQLPopVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLPopVC.release.xcconfig"; sourceTree = "<group>"; };
+		A14251A0825DDCF98734D95312E34861 /* Pods-SQLPopVC-SQLPopVCUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SQLPopVC-SQLPopVCUITests.modulemap"; sourceTree = "<group>"; };
+		A80D8B7B201CC197ADE1F1B157158938 /* SQLPopVC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SQLPopVC.bundle; path = "SQLPopVC-SQLPopVC.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E8AA90C91AB26350CBB935301C246B /* ResourceBundle-SQLPopVC-SQLPopVC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SQLPopVC-SQLPopVC-Info.plist"; sourceTree = "<group>"; };
+		ADF7B9BC51CC9FD33C977EA0688BA9F6 /* DFPopupViewArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DFPopupViewArea.m; path = SQLPopVC/DFPopupViewArea.m; sourceTree = "<group>"; };
+		B3F484AD310B796ED1F3B85E5CE76A83 /* NSString+DFPopupString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DFPopupString.m"; path = "SQLPopVC/DFPopupViewCTool/String/NSString+DFPopupString.m"; sourceTree = "<group>"; };
+		B72C56C465F6DE22E78B3B10C63055A1 /* Pods-SQLPopVC-SQLPopVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLPopVC-SQLPopVCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9FB96A9CB0ECE149205F5717B164AFD /* Pods_SQLPopVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SQLPopVC.framework; path = "Pods-SQLPopVC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D47E3304DC9800CA222A1A0CDC3187 /* Pods_SQLPopVC_SQLPopVCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SQLPopVC_SQLPopVCUITests.framework; path = "Pods-SQLPopVC-SQLPopVCUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E2B19C4CE889038ABC92758FEF81BB /* DFPopupViewSureImg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DFPopupViewSureImg@3x.png"; path = "SQLPopVC/DFPopupViewCTool/img/DFPopupViewSureImg@3x.png"; sourceTree = "<group>"; };
+		C0F2803E60C2769CA17679EF5A30935E /* NSBundle+DFBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+DFBundle.m"; path = "SQLPopVC/NSBundle+DFBundle.m"; sourceTree = "<group>"; };
+		C1DFA491F712C3B61CE98A20E67ADBCC /* Pods-SQLPopVC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQLPopVC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C80FA9028E09A893B246FE9A68018BFB /* SQLPopVC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLPopVC-Info.plist"; sourceTree = "<group>"; };
+		CDF566133446E15A0082C76DE9FDA1F6 /* Pods-SQLPopVCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SQLPopVCTests-umbrella.h"; sourceTree = "<group>"; };
+		DEEAB4B0F978F203E3D4E730C7C61545 /* Pods_SQLPopVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SQLPopVCTests.framework; path = "Pods-SQLPopVCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E256E74D2E89BD08176F8FAAA5736567 /* Pods-SQLPopVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQLPopVCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D84C3E5C9AF8A2F4B99EBA9A1AB94C /* Pods-SQLPopVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLPopVC-dummy.m"; sourceTree = "<group>"; };
+		F312B3BC974E01530CEF4311C16A04FA /* SQLPopVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLPopVC-umbrella.h"; sourceTree = "<group>"; };
+		F6BDB0A71C09FEC918A6A255B5E73AE1 /* DFPopupViewErrorImg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "DFPopupViewErrorImg@2x.png"; path = "SQLPopVC/DFPopupViewCTool/img/DFPopupViewErrorImg@2x.png"; sourceTree = "<group>"; };
+		F9789C1B365AD466CE27AAB02F81305E /* DFPopupDismissAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPopupDismissAnimator.h; path = SQLPopVC/DFPopupAnimator/DFPopupDismissAnimator.h; sourceTree = "<group>"; };
+		FE7F0C9A1A14E9B1E8265AAD49F1DD4F /* NSString+DFPopupString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DFPopupString.h"; path = "SQLPopVC/DFPopupViewCTool/String/NSString+DFPopupString.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8464CBFD364B5CD470058859E804D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB0B6F450E266A86173D514440D1023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EE60DF05A0936739658E256AB2EBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ADCAE2D711DF31DA6FA0414D2FDEDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5BF7D35DAD9367CB00594369A87AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA575DA30D8FB08E0F90A1AE6319B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B27931D54AC1EBDF78DB7D7F31DA23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3356792CDEB37D2565145620ED575A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F07B5A4E151940C0515947E1321D6CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19986BDBDD133302F44F94EFC8F3A4BF /* Pods-SQLPopVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4316D8382D21E3980BDA8F9131C1ACE3 /* Pods-SQLPopVCTests.modulemap */,
+				11354F34EF9CB91CE48F0422A5B329F6 /* Pods-SQLPopVCTests-acknowledgements.markdown */,
+				9B8EA8A5C70EE4817CE0B16F1A073521 /* Pods-SQLPopVCTests-acknowledgements.plist */,
+				3CEEAC8ACAC9AF4855EB60EC8A17FF89 /* Pods-SQLPopVCTests-dummy.m */,
+				50A3E1FFC7336B54CF95D611FEC96495 /* Pods-SQLPopVCTests-Info.plist */,
+				CDF566133446E15A0082C76DE9FDA1F6 /* Pods-SQLPopVCTests-umbrella.h */,
+				E256E74D2E89BD08176F8FAAA5736567 /* Pods-SQLPopVCTests.debug.xcconfig */,
+				1BBA1E1B62ACC5C9F719A3EB88902CA9 /* Pods-SQLPopVCTests.release.xcconfig */,
+			);
+			name = "Pods-SQLPopVCTests";
+			path = "Target Support Files/Pods-SQLPopVCTests";
+			sourceTree = "<group>";
+		};
+		3A772CA196CE88460F9ED34CF8830DFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				977D68B7398F37DA7CC31FE63E72B7C0 /* SQLPopVC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DCA069C039B6D55128B558DC0653C8E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95D42B8FB4D69484E2DEF370562CBDC /* Pods-SQLPopVC */,
+				A5BC587913026A821F521FE076FEB5F9 /* Pods-SQLPopVC-SQLPopVCUITests */,
+				19986BDBDD133302F44F94EFC8F3A4BF /* Pods-SQLPopVCTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		977D68B7398F37DA7CC31FE63E72B7C0 /* SQLPopVC */ = {
+			isa = PBXGroup;
+			children = (
+				65A12A12A43B2900F3384CA35B9C9325 /* DFPopupController.h */,
+				8D390982D8F959120CBC8FBA3EA80A70 /* DFPopupController.m */,
+				F9789C1B365AD466CE27AAB02F81305E /* DFPopupDismissAnimator.h */,
+				996F2D89854FE17C0F42EF3CCCA10F8F /* DFPopupDismissAnimator.m */,
+				96E906040E68C5918E03D2FBFC223F00 /* DFPopupHeader.h */,
+				86528F830BB6CDD27CECA79FCDDE98EE /* DFPopupPresentAnimator.h */,
+				149887879E4EF9808892AB982D54B6F9 /* DFPopupPresentAnimator.m */,
+				3DD1B8214F58E14D8E2C688E7B371F12 /* DFPopupViewArea.h */,
+				ADF7B9BC51CC9FD33C977EA0688BA9F6 /* DFPopupViewArea.m */,
+				1D36D72146006BF59FA5F2520BFBF47F /* DFPopViewButton.h */,
+				0466A8CA2E48C57723556E1910ECAAD7 /* DFPopViewButton.m */,
+				65EF910BD3161917DC6F7E5BF43811F1 /* DFPopViewTextField.h */,
+				578991A3DC662718346909A7B9F1C534 /* DFPopViewTextField.m */,
+				88A94202EFC2956325402FD0557E4349 /* NSBundle+DFBundle.h */,
+				C0F2803E60C2769CA17679EF5A30935E /* NSBundle+DFBundle.m */,
+				FE7F0C9A1A14E9B1E8265AAD49F1DD4F /* NSString+DFPopupString.h */,
+				B3F484AD310B796ED1F3B85E5CE76A83 /* NSString+DFPopupString.m */,
+				4752940829F423D1014BFEC08DBC3550 /* UIColor+DFToolColor.h */,
+				6F6E5554C8B8D3EB26CAB1F8E3741732 /* UIColor+DFToolColor.m */,
+				E81AB167BAC6ED7888D199FF9E26835E /* Resources */,
+				C1D3A7C388BCF69B5EA3C30BD1016948 /* Support Files */,
+			);
+			name = SQLPopVC;
+			path = SQLPopVC;
+			sourceTree = "<group>";
+		};
+		A5BC587913026A821F521FE076FEB5F9 /* Pods-SQLPopVC-SQLPopVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14251A0825DDCF98734D95312E34861 /* Pods-SQLPopVC-SQLPopVCUITests.modulemap */,
+				81A9885C23B8487F1D02381E9BC2CFCF /* Pods-SQLPopVC-SQLPopVCUITests-acknowledgements.markdown */,
+				6675AC3C7D010B20164AA44BFA57499E /* Pods-SQLPopVC-SQLPopVCUITests-acknowledgements.plist */,
+				985E7119E0B0E33584DB4BE08B72EFA5 /* Pods-SQLPopVC-SQLPopVCUITests-dummy.m */,
+				7AF65383102505201829A94FB4729D28 /* Pods-SQLPopVC-SQLPopVCUITests-frameworks.sh */,
+				4AD0D349EA1C7082EF3CFE519EDDC287 /* Pods-SQLPopVC-SQLPopVCUITests-Info.plist */,
+				654036BC336D47C33B8BF83FA8D2AD6B /* Pods-SQLPopVC-SQLPopVCUITests-umbrella.h */,
+				3CDBE1994819CF123D10EEBC63FE275F /* Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig */,
+				B72C56C465F6DE22E78B3B10C63055A1 /* Pods-SQLPopVC-SQLPopVCUITests.release.xcconfig */,
+			);
+			name = "Pods-SQLPopVC-SQLPopVCUITests";
+			path = "Target Support Files/Pods-SQLPopVC-SQLPopVCUITests";
+			sourceTree = "<group>";
+		};
+		B98A5BE3BD7D94FC7A59BEAE9A76C629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB96A9CB0ECE149205F5717B164AFD /* Pods_SQLPopVC.framework */,
+				C0D47E3304DC9800CA222A1A0CDC3187 /* Pods_SQLPopVC_SQLPopVCUITests.framework */,
+				DEEAB4B0F978F203E3D4E730C7C61545 /* Pods_SQLPopVCTests.framework */,
+				A80D8B7B201CC197ADE1F1B157158938 /* SQLPopVC.bundle */,
+				69E7D3E1AC6E43A6172404676AF9E50D /* SQLPopVC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1D3A7C388BCF69B5EA3C30BD1016948 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8AA90C91AB26350CBB935301C246B /* ResourceBundle-SQLPopVC-SQLPopVC-Info.plist */,
+				1BF7D836549EE16C847FDC68B06F6011 /* SQLPopVC.modulemap */,
+				29722707C8BDE30B220ADCD3837B13A3 /* SQLPopVC-dummy.m */,
+				C80FA9028E09A893B246FE9A68018BFB /* SQLPopVC-Info.plist */,
+				2A011BB210DD8E09AB01717FD1536DD6 /* SQLPopVC-prefix.pch */,
+				F312B3BC974E01530CEF4311C16A04FA /* SQLPopVC-umbrella.h */,
+				259613977BEABF34022FCBF47DF14276 /* SQLPopVC.debug.xcconfig */,
+				72F14D576BD3B726F04F3966B4A7D4DA /* SQLPopVC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLPopVC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3A772CA196CE88460F9ED34CF8830DFF /* Pods */,
+				B98A5BE3BD7D94FC7A59BEAE9A76C629 /* Products */,
+				4DCA069C039B6D55128B558DC0653C8E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81AB167BAC6ED7888D199FF9E26835E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF124D63049F72572061815A5CAC0C2 /* DFPopupViewArea.xib */,
+				4C96646CCC3713771F57338A92330E5B /* DFPopupViewDangerImg@2x.png */,
+				8CF1E72CD05278CA4AB1DD466B34B487 /* DFPopupViewDangerImg@3x.png */,
+				F6BDB0A71C09FEC918A6A255B5E73AE1 /* DFPopupViewErrorImg@2x.png */,
+				1AAB2F615C7C97B8369B355EB7B1C0C2 /* DFPopupViewErrorImg@3x.png */,
+				866FC8B13CD4A721C1140A52C4670A0A /* DFPopupViewSureImg@2x.png */,
+				C0E2B19C4CE889038ABC92758FEF81BB /* DFPopupViewSureImg@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E95D42B8FB4D69484E2DEF370562CBDC /* Pods-SQLPopVC */ = {
+			isa = PBXGroup;
+			children = (
+				40991436B5818B3A58C14A572F9A94F2 /* Pods-SQLPopVC.modulemap */,
+				C1DFA491F712C3B61CE98A20E67ADBCC /* Pods-SQLPopVC-acknowledgements.markdown */,
+				2A745C8A74D7FFE808334A3A1D47AC2F /* Pods-SQLPopVC-acknowledgements.plist */,
+				E5D84C3E5C9AF8A2F4B99EBA9A1AB94C /* Pods-SQLPopVC-dummy.m */,
+				3593341FDB36E08CFEDB2E41A971C581 /* Pods-SQLPopVC-frameworks.sh */,
+				965C29BD71C6D454842D8C49CAA408E0 /* Pods-SQLPopVC-Info.plist */,
+				53764564C2907E831707F47F274357E6 /* Pods-SQLPopVC-umbrella.h */,
+				786DB3FD1302392BC12E58A63492218D /* Pods-SQLPopVC.debug.xcconfig */,
+				9F9C425D2771B27745D24EF5056CB8D1 /* Pods-SQLPopVC.release.xcconfig */,
+			);
+			name = "Pods-SQLPopVC";
+			path = "Target Support Files/Pods-SQLPopVC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B0BCEABED01DC37FB766942C771F9C7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC34F942230B7CD43A4B852C9A652E69 /* Pods-SQLPopVC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75A2338898827E812FFA0FAF881CBA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC71163DA0A35C52E823955A37AB7AEB /* Pods-SQLPopVC-SQLPopVCUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2284713C85D968D2F8BF2C391CAECB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F39FAE1E78B2F6711257FBB62BE2D6 /* DFPopupController.h in Headers */,
+				A4152DEF58EFD6661A5F5E361BF8E1DF /* DFPopupDismissAnimator.h in Headers */,
+				F1EDCCB5B25E9B3652E7D0065D38EA84 /* DFPopupHeader.h in Headers */,
+				4A485B245C2029CFD938A98992020296 /* DFPopupPresentAnimator.h in Headers */,
+				D0E26E518DCFBC3B298E2948572CF6D4 /* DFPopupViewArea.h in Headers */,
+				F0EA64F44B89190A8D53C2499ED5DB7E /* DFPopViewButton.h in Headers */,
+				793B6657BCCD00FDF2AF85C3C4295179 /* DFPopViewTextField.h in Headers */,
+				8A07B8827CBEDA1B924D22685AB6F1CA /* NSBundle+DFBundle.h in Headers */,
+				AF0AA32A2CF6E36B0114D36F94CCE3C9 /* NSString+DFPopupString.h in Headers */,
+				68A8CF8FD8F90B8F79EFC2FDC0D2C443 /* SQLPopVC-umbrella.h in Headers */,
+				18871510EA38D0855E61FCAC93651A72 /* UIColor+DFToolColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BDAB245AE46472DE98B11CF893364B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F66D64F6DFF53EFB5C961D949FFEB7E /* Pods-SQLPopVCTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12B0C5AC9B49693BA8B7EB2ABEF47BF1 /* Pods-SQLPopVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E477F2B1948ED540BB422EC747AA8572 /* Build configuration list for PBXNativeTarget "Pods-SQLPopVCTests" */;
+			buildPhases = (
+				F8BDAB245AE46472DE98B11CF893364B /* Headers */,
+				DCC646BD386EF510E8FB1E65AEFE30BD /* Sources */,
+				3F8464CBFD364B5CD470058859E804D8 /* Frameworks */,
+				FEB5658B02BDF0398DB2F14D42DC2C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70910C8E6A67D2DACFD97B30FC6A22C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SQLPopVCTests";
+			productName = "Pods-SQLPopVCTests";
+			productReference = DEEAB4B0F978F203E3D4E730C7C61545 /* Pods_SQLPopVCTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2ABFA1CEC432E300005728DCFEEE31DE /* Pods-SQLPopVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC0DA410381084EB0B164124A09A61C /* Build configuration list for PBXNativeTarget "Pods-SQLPopVC" */;
+			buildPhases = (
+				B0BCEABED01DC37FB766942C771F9C7C /* Headers */,
+				75E2759EABA2FF3B4280442F202BE972 /* Sources */,
+				A3356792CDEB37D2565145620ED575A1 /* Frameworks */,
+				AC473EDC1C0CFDB2BCB98F270FAA55BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350D65BFF7ECF53F8AF121D791A98FA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SQLPopVC";
+			productName = "Pods-SQLPopVC";
+			productReference = B9FB96A9CB0ECE149205F5717B164AFD /* Pods_SQLPopVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		494597B72AD0B8D0B47D9C09FCA8C077 /* SQLPopVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E290B9ECEBB478E54C54A62137952EA1 /* Build configuration list for PBXNativeTarget "SQLPopVC" */;
+			buildPhases = (
+				F2284713C85D968D2F8BF2C391CAECB2 /* Headers */,
+				737295672F1C638EA0B42936D4B4C8C0 /* Sources */,
+				40EE60DF05A0936739658E256AB2EBA1 /* Frameworks */,
+				279792F6A7B38B298D41622A723734B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17159C2156979F3DCCA4D05D86D48C58 /* PBXTargetDependency */,
+			);
+			name = SQLPopVC;
+			productName = SQLPopVC;
+			productReference = 69E7D3E1AC6E43A6172404676AF9E50D /* SQLPopVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57BC731EDDD5193F567C8756F9AE45B1 /* Pods-SQLPopVC-SQLPopVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E5A7861E0C85227B12C3862C474CD1B /* Build configuration list for PBXNativeTarget "Pods-SQLPopVC-SQLPopVCUITests" */;
+			buildPhases = (
+				E75A2338898827E812FFA0FAF881CBA9 /* Headers */,
+				73EC7C448FF601A7CF1C30EE364FDE64 /* Sources */,
+				7BA575DA30D8FB08E0F90A1AE6319B2D /* Frameworks */,
+				A58EC6BCCB6F61BC4BBF027C2E41B078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8347879D14373196F9DA25D5823082D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SQLPopVC-SQLPopVCUITests";
+			productName = "Pods-SQLPopVC-SQLPopVCUITests";
+			productReference = C0D47E3304DC9800CA222A1A0CDC3187 /* Pods_SQLPopVC_SQLPopVCUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB183F6667460584FF55E527F9F76930 /* SQLPopVC-SQLPopVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926D7BC9B7575852252E3885A6508C19 /* Build configuration list for PBXNativeTarget "SQLPopVC-SQLPopVC" */;
+			buildPhases = (
+				64246D97A4353740120DE1575ABEC23E /* Sources */,
+				4A5BF7D35DAD9367CB00594369A87AA7 /* Frameworks */,
+				3AC7C9EA32E421FF46CBD311BDEC8A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLPopVC-SQLPopVC";
+			productName = "SQLPopVC-SQLPopVC";
+			productReference = A80D8B7B201CC197ADE1F1B157158938 /* SQLPopVC.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B98A5BE3BD7D94FC7A59BEAE9A76C629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ABFA1CEC432E300005728DCFEEE31DE /* Pods-SQLPopVC */,
+				57BC731EDDD5193F567C8756F9AE45B1 /* Pods-SQLPopVC-SQLPopVCUITests */,
+				12B0C5AC9B49693BA8B7EB2ABEF47BF1 /* Pods-SQLPopVCTests */,
+				494597B72AD0B8D0B47D9C09FCA8C077 /* SQLPopVC */,
+				CB183F6667460584FF55E527F9F76930 /* SQLPopVC-SQLPopVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279792F6A7B38B298D41622A723734B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD00B0974A99132A0933512DEDECD5 /* SQLPopVC.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC7C9EA32E421FF46CBD311BDEC8A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AE2D1BD6E6BB859B4A334690521A1 /* DFPopupViewArea.xib in Resources */,
+				9D25BD7D25C887EE2A36D66ECF741BD9 /* DFPopupViewDangerImg@2x.png in Resources */,
+				9CCE1CCAFD4626998EE4BCAA1B1414B2 /* DFPopupViewDangerImg@3x.png in Resources */,
+				448D43D5EEEE7489A364A0D8A394B343 /* DFPopupViewErrorImg@2x.png in Resources */,
+				382ED5494608173E3E934D2F5FF56DD9 /* DFPopupViewErrorImg@3x.png in Resources */,
+				C1700A367C3EEA404C67A7D2B8491AB7 /* DFPopupViewSureImg@2x.png in Resources */,
+				25ECF95D6B813149F65BD79856257C35 /* DFPopupViewSureImg@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58EC6BCCB6F61BC4BBF027C2E41B078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC473EDC1C0CFDB2BCB98F270FAA55BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB5658B02BDF0398DB2F14D42DC2C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64246D97A4353740120DE1575ABEC23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737295672F1C638EA0B42936D4B4C8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3BB2098B5DBE8BD3E39BA397BD2835 /* DFPopupController.m in Sources */,
+				99E47EAEA434263663641FFD3971A5A6 /* DFPopupDismissAnimator.m in Sources */,
+				4B8E3B6ABD2B0C19B11FAEF2445799C5 /* DFPopupPresentAnimator.m in Sources */,
+				01FAB534F65C3A780817E992DD44AECE /* DFPopupViewArea.m in Sources */,
+				C1BB84DBB11878E0A2696E220461D6CE /* DFPopViewButton.m in Sources */,
+				A46F5D2F38F9B1ECF48061CBAECD374A /* DFPopViewTextField.m in Sources */,
+				519391FE95EB841A121D23B567A601C7 /* NSBundle+DFBundle.m in Sources */,
+				FB9B53AE41A5FD503C1128F79ADB3389 /* NSString+DFPopupString.m in Sources */,
+				CC71227FFB8B5B6422CD9B80EE2CB749 /* SQLPopVC-dummy.m in Sources */,
+				9D267D313FEAFA989642DEEAD385D844 /* UIColor+DFToolColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EC7C448FF601A7CF1C30EE364FDE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A7A90BA4D7ED70E2D25F55D267ABAA /* Pods-SQLPopVC-SQLPopVCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E2759EABA2FF3B4280442F202BE972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3AC45049AEFE62AEFE68C3EFB7D685 /* Pods-SQLPopVC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC646BD386EF510E8FB1E65AEFE30BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB250343BFE38B9BB1731BD7B948 /* Pods-SQLPopVCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17159C2156979F3DCCA4D05D86D48C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLPopVC-SQLPopVC";
+			target = CB183F6667460584FF55E527F9F76930 /* SQLPopVC-SQLPopVC */;
+			targetProxy = DC5813CCB2E648A981626F9F063D6471 /* PBXContainerItemProxy */;
+		};
+		350D65BFF7ECF53F8AF121D791A98FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLPopVC;
+			target = 494597B72AD0B8D0B47D9C09FCA8C077 /* SQLPopVC */;
+			targetProxy = 80518E1C5D8E298C35BA76E8FF33ECC4 /* PBXContainerItemProxy */;
+		};
+		70910C8E6A67D2DACFD97B30FC6A22C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SQLPopVC";
+			target = 2ABFA1CEC432E300005728DCFEEE31DE /* Pods-SQLPopVC */;
+			targetProxy = A4B43C6B6FA0768865D382594D237EBF /* PBXContainerItemProxy */;
+		};
+		8347879D14373196F9DA25D5823082D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLPopVC;
+			target = 494597B72AD0B8D0B47D9C09FCA8C077 /* SQLPopVC */;
+			targetProxy = 247489B337168A4A33DACFE0679FA9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018392B6A521CA2FB892B7EAC1DA9BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E256E74D2E89BD08176F8FAAA5736567 /* Pods-SQLPopVCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLPopVCTests/Pods-SQLPopVCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLPopVCTests/Pods-SQLPopVCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C362D60953AB8C3CE6296B04039C734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		65210535CD24AC9E82395B81FCEDC6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBA1E1B62ACC5C9F719A3EB88902CA9 /* Pods-SQLPopVCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLPopVCTests/Pods-SQLPopVCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLPopVCTests/Pods-SQLPopVCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E9B5C88C154932BD897ED0655429A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72C56C465F6DE22E78B3B10C63055A1 /* Pods-SQLPopVC-SQLPopVCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLPopVC-SQLPopVCUITests/Pods-SQLPopVC-SQLPopVCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLPopVC-SQLPopVCUITests/Pods-SQLPopVC-SQLPopVCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70316595C2F2AE9923F8DA14508E87F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75B8C01EBE600B2F6DFC1B2DFD90790E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F14D576BD3B726F04F3966B4A7D4DA /* SQLPopVC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLPopVC/SQLPopVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLPopVC/SQLPopVC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLPopVC/SQLPopVC.modulemap";
+				PRODUCT_MODULE_NAME = SQLPopVC;
+				PRODUCT_NAME = SQLPopVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A614E1C8141201E56440F2939800BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDBE1994819CF123D10EEBC63FE275F /* Pods-SQLPopVC-SQLPopVCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLPopVC-SQLPopVCUITests/Pods-SQLPopVC-SQLPopVCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLPopVC-SQLPopVCUITests/Pods-SQLPopVC-SQLPopVCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E479B289B3965DD775521CC89BB571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F14D576BD3B726F04F3966B4A7D4DA /* SQLPopVC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQLPopVC";
+				IBSC_MODULE = SQLPopVC;
+				INFOPLIST_FILE = "Target Support Files/SQLPopVC/ResourceBundle-SQLPopVC-SQLPopVC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SQLPopVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8803382C3ECA39DDBBAAF9420382DE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259613977BEABF34022FCBF47DF14276 /* SQLPopVC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQLPopVC";
+				IBSC_MODULE = SQLPopVC;
+				INFOPLIST_FILE = "Target Support Files/SQLPopVC/ResourceBundle-SQLPopVC-SQLPopVC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SQLPopVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8D77899124F6C21E5951EDE561F88308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259613977BEABF34022FCBF47DF14276 /* SQLPopVC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLPopVC/SQLPopVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLPopVC/SQLPopVC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLPopVC/SQLPopVC.modulemap";
+				PRODUCT_MODULE_NAME = SQLPopVC;
+				PRODUCT_NAME = SQLPopVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6C43EA7F1BCCD4D5C9C50CC5C5E11AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786DB3FD1302392BC12E58A63492218D /* Pods-SQLPopVC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLPopVC/Pods-SQLPopVC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLPopVC/Pods-SQLPopVC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F33F8A475C26BC856759B0BCEE4DB200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9C425D2771B27745D24EF5056CB8D1 /* Pods-SQLPopVC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SQLPopVC/Pods-SQLPopVC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SQLPopVC/Pods-SQLPopVC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E5A7861E0C85227B12C3862C474CD1B /* Build configuration list for PBXNativeTarget "Pods-SQLPopVC-SQLPopVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A614E1C8141201E56440F2939800BE9 /* Debug */,
+				6E9B5C88C154932BD897ED0655429A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC0DA410381084EB0B164124A09A61C /* Build configuration list for PBXNativeTarget "Pods-SQLPopVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C43EA7F1BCCD4D5C9C50CC5C5E11AD /* Debug */,
+				F33F8A475C26BC856759B0BCEE4DB200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C362D60953AB8C3CE6296B04039C734 /* Debug */,
+				70316595C2F2AE9923F8DA14508E87F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926D7BC9B7575852252E3885A6508C19 /* Build configuration list for PBXNativeTarget "SQLPopVC-SQLPopVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8803382C3ECA39DDBBAAF9420382DE78 /* Debug */,
+				84E479B289B3965DD775521CC89BB571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E290B9ECEBB478E54C54A62137952EA1 /* Build configuration list for PBXNativeTarget "SQLPopVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D77899124F6C21E5951EDE561F88308 /* Debug */,
+				75B8C01EBE600B2F6DFC1B2DFD90790E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E477F2B1948ED540BB422EC747AA8572 /* Build configuration list for PBXNativeTarget "Pods-SQLPopVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018392B6A521CA2FB892B7EAC1DA9BC1 /* Debug */,
+				65210535CD24AC9E82395B81FCEDC6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

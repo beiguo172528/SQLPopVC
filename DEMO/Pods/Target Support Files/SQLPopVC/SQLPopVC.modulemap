@@ -1,0 +1,6 @@
+framework module SQLPopVC {
+  umbrella header "SQLPopVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

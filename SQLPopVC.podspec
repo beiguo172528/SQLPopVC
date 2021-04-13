@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SQLPopVC"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.6"
   spec.summary      = "自己搭建，没有使用第三方库，实现确认框。"
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -62,7 +62,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -103,9 +103,12 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  # spec.resources = "SQLPopVC/**/*.png","SQLPopVC/**/*.xib"
+  spec.resource_bundles = {
+    "SQLPopVC" => ["SQLPopVC/**/*.{xib,png,xcassets}"]
+  }
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave" 
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
