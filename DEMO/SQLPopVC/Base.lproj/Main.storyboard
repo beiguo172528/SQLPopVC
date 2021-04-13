@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="3Ip-Y9-LyL">
-                                <rect key="frame" x="20" y="323.5" width="374" height="249"/>
+                                <rect key="frame" x="20" y="289.5" width="374" height="317"/>
                                 <subviews>
                                     <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfv-Rv-0GZ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="45"/>
@@ -69,6 +69,19 @@
                                         </state>
                                         <connections>
                                             <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHC-4g-hpY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYX-Iy-ETh">
+                                        <rect key="frame" x="0.0" y="272" width="374" height="45"/>
+                                        <color key="backgroundColor" red="0.0" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="d3F-tz-OIl"/>
+                                        </constraints>
+                                        <state key="normal" title="默认图片弹框">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2AE-eU-dSa"/>
                                         </connections>
                                     </button>
                                 </subviews>

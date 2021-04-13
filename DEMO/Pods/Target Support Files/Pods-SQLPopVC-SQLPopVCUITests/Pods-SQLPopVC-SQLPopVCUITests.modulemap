@@ -1,0 +1,6 @@
+framework module Pods_SQLPopVC_SQLPopVCUITests {
+  umbrella header "Pods-SQLPopVC-SQLPopVCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

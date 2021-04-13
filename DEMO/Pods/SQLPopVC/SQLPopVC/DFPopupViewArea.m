@@ -9,7 +9,6 @@
 #import "DFPopupViewArea.h"
 #import "DFPopupController.h"
 #import "NSString+DFPopupString.h"
-#import "NSBundle+DFBundle.h"
 
 static const int kMassageFontSize = 18;
 static const float kMessaeTextViewMaxHeight = 90.0;
@@ -150,8 +149,7 @@ static const float kSelfCornerRadius = 7;
     if (!_imgName || [_imgName isEqualToString:@""]) {
         return NO;
     }else{
-        NSBundle *bundle = [NSBundle bundleWithBundleName:@"SQLPopVC" podName:@"SQLPopVC"];
-        UIImage* img = [UIImage imageNamed:_imgName inBundle:bundle compatibleWithTraitCollection:nil];
+        UIImage* img = [UIImage imageNamed:_imgName];
         if (!img) {
             return NO;
         }else{

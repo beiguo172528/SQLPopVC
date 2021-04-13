@@ -20,6 +20,10 @@
 }
 
 - (IBAction)onclickBtn:(UIButton *)sender {
+    if(sender.tag == 105){
+        [DFPopupController popupViewAddToViewController:self style:DFPopupControllerStyleSure Message:@"确认信息"];
+        return;
+    }
     DFPopupController * vc = [DFPopupController popupViewWithTitle:@"Title" imgName:@"" message:@"Message"];
     switch (sender.tag) {
         case 101:{
